@@ -6,12 +6,12 @@
 
 <h1 align="center">Hermes Notes</h1>
 
-<p align="center">Simple backend created for an app used as work for college with Express</p>
+<p align="center">Simple frontend created for an app used as work for college with Expo</p>
 
 
 ## :hammer: **Stack**
 
-- [Expo](https://expressjs.com/)
+- [Expo](https://docs.expo.io/)
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 
@@ -25,18 +25,18 @@ Besides, it's interesting to use an IDE as [VSCode](https://code.visualstudio.co
 
 ```bash
 # Clone this repo
-$ git clone https://github.com/miguelaugl/hermes-backend.git
+$ git clone https://github.com/miguelaugl/hermes-frontend.git
 
 # Enter project
-$ cd hermes-backend
+$ cd hermes-frontend
 
 # Install dependencies
 $ yarn
 
 # Execute the application
-$ yarn dev
+$ yarn start
 
-# The server will start at port 3333 by default. Access: <http://localhost:3333>
+# This will start the server so you can use through Expo App on stores
 ```
 
 ## :construction_worker: **Architecture**

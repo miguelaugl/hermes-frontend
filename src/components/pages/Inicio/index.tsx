@@ -52,7 +52,7 @@ const Inicio = () => {
     const match = /\.(\w+)$/.exec(filename);
     const type = match ? `image/${match[1]}` : `image`;
     const formData = new FormData();
-    const data = { uri: imagem, name: filename, type } as any;
+    const data = { uri: imagem, name: filename, type };
     formData.append('foto', data);
     formData.append('texto', novaTexto);
 
